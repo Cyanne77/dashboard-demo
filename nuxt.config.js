@@ -15,7 +15,13 @@ const config = {
   env: {
     mock: {
       '/deepexi-tenant': mockServer,
-      '/deepexi-permission': mockServer
+      '/deepexi-permission': mockServer,
+      mock: {
+        '/demo': 'http://localhost:3000/mock/11'
+      },
+      dev: {
+        '/api': 'http://real.api.server'
+      }
     },
     dev: {
       '/deepexi-tenant': apiServer,

@@ -1,6 +1,10 @@
 <template>
   <div class="index">
-    <img class="home-img" :src="$store.state.meta.homePageImg" alt="homeImg" />
+    <img
+      class="home-img"
+      :src="$store.state.meta.homePageImg"
+      alt="homeImg123"
+    />
   </div>
 </template>
 
